@@ -35,9 +35,33 @@ Processando e Transformando Dados com Power BI </b></u>
 ✔ O valor do salário dos empregados precisou ajeitar a formatação. Ajuste no tipo de formato das horas, pois não era a correta.
 
 
-<hr>
-<br>
+
+## Resultado
 
 🧱 [Arquivo do Power BI](https://github.com/limasfernanda/Company_Kozuki_analysis/blob/main/relatorio_company.pbix)
 
 🌀 [Arquivo do MySQL](https://github.com/limasfernanda/Company_Kozuki_analysis/blob/main/sql_company.sql)
+
+📑 [Relatório de Análise empresa Kozuki](https://github.com/limasfernanda/Company_Kozuki_analysis/blob/main/relatorio_company.pdf)
+
+<br>
+O banco de dados foi criado no próprio MySQL Workbench, uma empresa fictícia. Principais objetivos: (i) criar o esquema do banco de dados, (ii) extrair dados relevantes, (iii) transformar esses dados para fins analíticos, (iv) visualize os dados transformados usando Power BI. As tabelas dos funcionários e dependentes tinham armazenadas a data de aniversário, assim foi realizada um consulta para obter as idades de acordo com o dia atual. Descobriu-se que o departamento com mais projetos e horas trabalhadas é o de Pesquisa, que o empregado com mais projetos em andamento é o terceiro mais velho, e o colaborador que tem mais horas em projetos em andamento possui idade mais avançada (+65).
+
+<br>
+
+<p align="center">
+ <br>
+ Figura 1 
+    <img src = "kozuki1.PNG"/>
+</p>
+
+<br>
+
+<p align="center">
+ Figura 2
+    <img src = "kozuki2.PNG"/>
+</p>
+
+
+<hr>
+
